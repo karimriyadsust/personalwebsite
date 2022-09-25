@@ -1,0 +1,500 @@
+body {
+    font-family: montserrat;
+}
+
+/* navition area */
+.navbar {
+    height: 60px;
+    width: 100%;
+    background-color: #0D0D0D;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: +1;
+    box-shadow: 0px .02px 2px 0px rgb(0, 0, 0);
+}
+
+.logo {
+    position: absolute;
+    float: left;
+    left: 100px;
+    margin-top: 0px;
+    top: 7px;
+}
+
+.logo a {
+    text-decoration: none;
+    color: #03A696;
+    font-size: 32px;
+    font-weight: 300;
+}
+
+.navabr ul {
+    overflow: auto;
+    color: #03A696;
+    margin-top: 10px;
+    margin-left: 100px;
+    position: absolute;
+
+
+}
+
+.navbar li {
+    list-style: none;
+    float: right;
+
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: #03A696;
+    font-weight: 300;
+    margin: 50px;
+
+}
+
+/* navition area */
+
+
+/* Landing Page Css */
+.landingpage {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-color: #0D0D0D;
+    left: 0px;
+    color: #03A696;
+}
+
+.karimriyad {
+    position: absolute;
+    top: 40%;
+    left: 100px;
+    cursor: pointer;
+
+}
+
+.karimriyad h1 {
+    font-size: 100px;
+    font-weight: 900;
+    margin: 0px;
+}
+
+.karimriyad p {
+    margin: 0px;
+    font-size: 24px;
+}
+
+.landingpage button {
+    position: absolute;
+    top: 70%;
+    left: 100px;
+    background-color: #03A696;
+    color: #0D0D0D;
+    border: 0px solid;
+    padding: 12px;
+    font-size: 16px;
+    font-weight: 300;
+    border-radius: 10px;
+    width: 100px;
+    cursor: pointer;
+}
+
+.landingpage button:hover {
+    background-color: #00ffe5;
+
+}
+
+.mainpic {
+    float: right;
+}
+
+.mainpic img {
+
+    margin-top: 70px;
+    position: absolute;
+    left: 800px;
+}
+
+/* Landing Page Css */
+
+/* About Me Page Css */
+.aboutmepage {
+    height: 101%;
+    width: 100%;
+    position: absolute;
+    background-color: #03A696;
+    left: 0px;
+    color: #0D0D0D;
+    top: 721px;
+
+}
+
+.aboutmecontainer {
+    display: flex;
+    height: 700px;
+    position: absolute;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    color: #0D0D0D;
+}
+
+.aboutmeleftside {
+    display: flex;
+    height: 700px;
+    flex-direction: column;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5%;
+}
+
+.aboutmepara p {
+
+    text-align: center;
+}
+
+.aboutmerightside {
+    display: flex;
+    height: 700px;
+    flex-direction: column;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+.softwarepics img {
+    margin-left: 20px;
+}
+
+.softwarepic:hover {
+    transform: scale(1.2);
+}
+
+.languagespic img {
+    margin-left: 20px;
+}
+
+.languagepic:hover {
+    transform: scale(1.2);
+}
+
+
+/* About Me Page Css */
+
+/* Portfolio Page Css */
+.portfoliopage {
+    height: 2100px;
+    width: 100%;
+    position: absolute;
+    background-color: #0D0D0D;
+    left: 0px;
+    top: 1433px;
+    color: #03A696;
+}
+
+.line {
+    position: absolute;
+    width: 3px;
+    height: 2100px;
+    background-color: #03A696;
+    margin-left: 80px;
+}
+
+.circle1 {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background-color: #03A696;
+    margin-left: 74px;
+    margin-top: 339px;
+    border-radius: 50%;
+}
+
+.circle2 {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background-color: #03A696;
+    margin-left: 74px;
+    margin-top: 1040px;
+    border-radius: 50%;
+}
+
+.circle3 {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background-color: #03A696;
+    margin-left: 74px;
+    margin-top: 1742px;
+    border-radius: 50%;
+}
+
+/* ILLUSTRATIONS PORTFOLIO SECTION */
+.illustrationcontainer {
+    display: flex;
+    height: 700px;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.illustrationtitle {
+    width: 30%;
+}
+
+.illustrationtitle h1 {
+    margin-left: 100px;
+    font-size: 32px;
+}
+
+.illustrationpics {
+    flex-direction: column;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    align-content: center;
+    flex: 1;
+    margin: 0;
+    padding: 0;
+    height: 700px;
+    background-color: #ffff;
+}
+
+.illustrationpics img {
+    margin-left: 100px;
+}
+
+/* ILLUSTRATIONS PORTFOLIO SECTION */
+
+
+/* LOGO PORTFOLIO SECTION */
+
+.logocontainer {
+    display: flex;
+    height: 700px;
+
+    align-items: center;
+    justify-content: center;
+    margin-top: 800px;
+    align-content: center;
+    margin: 0;
+    padding: 0;
+    background-color: #0D0D0D;
+}
+
+.logotitle {
+    width: 30%;
+}
+
+.logotitle h1 {
+    margin-left: 100px;
+}
+
+
+.logopics {
+    flex-direction: column;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    align-content: center;
+    flex: 1;
+    margin: 0;
+    padding: 0;
+    height: 700px;
+    background-color: #ffff;
+
+}
+
+.logopics img {
+    margin-left: 100px;
+}
+
+/* LOGO PORTFOLIO SECTION */
+
+
+/* Poster PORTFOLIO SECTION */
+.postercontainer {
+    display: flex;
+    height: 700px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 800px;
+    align-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.postertitle {
+    width: 30%;
+
+}
+
+.postertitle h1 {
+    margin-left: 100px;
+
+}
+
+.posterpics {
+    flex-direction: column;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex: 1;
+    margin: 0;
+    padding: 0;
+    height: 700px;
+    background-color: #ffff;
+}
+
+/* Poster PORTFOLIO SECTION */
+
+
+/* Portfolio Page Css */
+
+/* Hire ME Page Css */
+.hiremepage {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-color: #03A696;
+    left: 0px;
+    top: 3500px;
+}
+
+.hiremecontainer {
+    display: flex;
+    height: 700px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.hiremetitle {
+    width: 50%;
+    margin-left: 10%;
+
+}
+
+.hiremetitle h1 {
+    font-weight: 700;
+    font-size: 56px;
+}
+
+.hiremeform {
+    display: flex;
+    margin-right: 10%;
+    align-items: center;
+    font-weight: 500;
+}
+
+.hiremename {
+    display: flex;
+    margin: 2% 10%;
+    justify-content: space-between;
+}
+
+.hiremename input {
+    width: 168px;
+}
+
+.email {
+    margin: 2% 10%;
+
+}
+
+.email input {
+    width: 375px;
+
+}
+
+
+
+input {
+    background-color: #03A696;
+    padding: 10px;
+    border: 1px solid #0D0D0D;
+    border-radius: 20px;
+
+}
+
+.message {
+    margin: 0% 10%;
+}
+
+.message input {
+    height: 240px;
+    width: 375px;
+}
+
+.send button {
+    font-weight: 600;
+}
+
+.hiremeform button {
+    background-color: #03A696;
+    padding: 10px;
+    border: 1px solid #0D0D0D;
+    border-radius: 20px;
+    width: 400px;
+    margin: 2% 10%;
+
+}
+
+.hiremeform button:hover {
+    background-color: #0D0D0D;
+    color: #03A696;
+}
+
+/* Hire ME Page Css */
+
+/* FOOTER PAGE CSS */
+
+.footerpage {
+    height: 15%;
+    width: 100%;
+    position: absolute;
+    background-color: #0D0D0D;
+    left: 0px;
+    top: 4212px;
+    color: #03A696;
+}
+
+.footcontainer {
+    display: flex;
+    align-items: center;
+
+    height: 100px;
+    margin: 0px;
+    padding: 0px;
+    justify-content: center;
+
+}
+
+.socialmediapics {
+    margin: 0px;
+    padding: 0px;
+}
+
+.socialmediapics {
+    margin: 0px 40px;
+}
+
+.socialmediapics img {
+    margin: 10px 10px;
+}
+
+.followmetitle h1 {
+    margin: 10px 0px;
+    padding: 0px;
+    font-weight: 600;
+    font-size: 24px;
+}
